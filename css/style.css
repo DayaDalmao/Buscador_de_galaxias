@@ -1,3 +1,14 @@
 main {
     min-height: calc(100vh - 160px);
   }
+
+  /* Limita la altura del contenido de la tarjeta */
+.card {
+  max-height: 400px; 
+  overflow-y: auto;
+}
+
+.card-img-top {
+  max-height: 200px; /* Limita la altura de la imagen */
+  object-fit: cover; /* Ajusta la imagen para que se recorte */
+}
